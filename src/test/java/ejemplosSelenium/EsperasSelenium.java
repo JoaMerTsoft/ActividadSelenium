@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class MasMetodosSelenium {
+public class EsperasSelenium {
     public static void main(String[] args) throws InterruptedException {
 
         String rutaDriver= System.getProperty("user.dir")+"\\src\\test\\resources\\drivers\\chromedriver.exe";
@@ -44,37 +44,37 @@ public class MasMetodosSelenium {
         Thread.sleep(3000);
 
         //agregar texto en campo email
-        driver.findElement(By.id("email")).sendKeys("domingo.saavedra@tsoftglobal.com");
+        driver.findElement(By.id("email")).sendKeys("joaquin.mercado@tsoftglobal.com");
 
         Thread.sleep(2000);
 
         //agregar texto en campo email
-        driver.findElement(By.name("confirm")).sendKeys("domingo.saavedra@tsoftglobal.com");
+        driver.findElement(By.name("confirm")).sendKeys("joaquin.mercado@tsoftglobal.com");
 
         Thread.sleep(2000);
 
         //agregar texto en campo email
-        driver.findElement(By.name("password")).sendKeys("123454321");
+        driver.findElement(By.name("password")).sendKeys("9876543210123");
 
         Thread.sleep(2000);
 
-        driver.findElement(By.name("displayname")).sendKeys("Pobre Domingo :D");
+        driver.findElement(By.name("displayname")).sendKeys("Monicho");
 
         Thread.sleep(2000);
 
         //agregar texto en campo email
-        driver.findElement(By.id("day")).sendKeys("28");
+        driver.findElement(By.id("day")).sendKeys("16");
 
         Thread.sleep(2000);
 
         //instanciar un comboBox
         Select cmbMes = new Select(driver.findElement(By.id("month")));
 
-        cmbMes.selectByValue("02");
+        cmbMes.selectByValue("07");
 
         Thread.sleep(2000);
 
-        driver.findElement(By.name("year")).sendKeys("1991");
+        driver.findElement(By.name("year")).sendKeys("1998");
 
         Thread.sleep(2000);
 
@@ -108,9 +108,8 @@ public class MasMetodosSelenium {
         if(resultadoActual.equals(resultadoEsperado)){
             System.out.println("Caso OK. Se verifica mensaje de ausencia de captcha");
         }else{
-            System.out.println("Buuuu");
+            System.out.println("fsiña");
         }
-
 
         driver.quit();
     }

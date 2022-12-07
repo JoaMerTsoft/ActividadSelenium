@@ -6,8 +6,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class ElementosSelenium {
+import java.util.concurrent.TimeUnit;
+
+public class ElementosWebSelenium {
     public static void main(String[] args) throws InterruptedException {
 
         String rutaDriver= System.getProperty("user.dir")+"\\src\\test\\resources\\drivers\\chromedriver.exe";
@@ -15,6 +18,16 @@ public class ElementosSelenium {
         System.setProperty("webdriver.chrome.driver",rutaDriver);
 
         WebDriver driver = new ChromeDriver();
+        //Se establece un tiempo de espera maximo de 30 segundos para que la pagina cargue
+        //Si se demora mas en cargar, nuestro script se caera
+        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+
+        //establecer 40 segundos de espera por los componentes asincronos de una pagina
+        driver.manage().timeouts().setScriptTimeout(40, TimeUnit.SECONDS);
+
+        //establecer 20 segundos de espera para evitar lanzar una excepcion por no encontrar un elemento web
+        //driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+        WebDriverWait wait = new WebDriverWait(driver,10);
 
         driver.navigate().to("https://open.spotify.com/");
 
