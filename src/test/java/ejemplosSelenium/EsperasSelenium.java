@@ -46,49 +46,49 @@ public class EsperasSelenium {
         //agregar texto en campo email
         driver.findElement(By.id("email")).sendKeys("joaquin.mercado@tsoftglobal.com");
 
-        Thread.sleep(2000);
+        Thread.sleep(4000);
 
         //agregar texto en campo email
         driver.findElement(By.name("confirm")).sendKeys("joaquin.mercado@tsoftglobal.com");
 
-        Thread.sleep(2000);
+        Thread.sleep(4000);
 
         //agregar texto en campo email
         driver.findElement(By.name("password")).sendKeys("9876543210123");
 
-        Thread.sleep(2000);
+        Thread.sleep(4000);
 
         driver.findElement(By.name("displayname")).sendKeys("Monicho");
 
-        Thread.sleep(2000);
+        Thread.sleep(4000);
 
         //agregar texto en campo email
         driver.findElement(By.id("day")).sendKeys("16");
 
-        Thread.sleep(2000);
+        Thread.sleep(4000);
 
         //instanciar un comboBox
         Select cmbMes = new Select(driver.findElement(By.id("month")));
 
         cmbMes.selectByValue("07");
 
-        Thread.sleep(2000);
+        Thread.sleep(4000);
 
         driver.findElement(By.name("year")).sendKeys("1998");
 
-        Thread.sleep(2000);
+        Thread.sleep(4000);
 
         driver.findElement(By.xpath("//label[@for='gender_option_male']")).click();
 
-        Thread.sleep(2000);
+        Thread.sleep(4000);
 
         driver.findElement(By.xpath("//label[@for='marketing-opt-checkbox']")).click();
 
-        Thread.sleep(2000);
+        Thread.sleep(4000);
 
         driver.findElement(By.xpath("//label[@for='third-party-checkbox']")).click();
 
-        Thread.sleep(2000);
+        Thread.sleep(4000);
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
         //Find element by link text and store in variable "Element"
@@ -99,7 +99,7 @@ public class EsperasSelenium {
 
         btnRegistro.click();
 
-        Thread.sleep(2000);
+        Thread.sleep(4000);
 
         String resultadoEsperado = "Confirma que no eres un robot.";
 

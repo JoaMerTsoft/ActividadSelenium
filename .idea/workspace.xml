@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0707b6ab-cfc9-4095-82ec-be270dd7a07f" name="Changes" comment="codigo base terminado" />
+    <list default="true" id="0707b6ab-cfc9-4095-82ec-be270dd7a07f" name="Changes" comment="codigo base terminado">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ejemplosSelenium/EsperasSelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ejemplosSelenium/EsperasSelenium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/CasosDePrueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/CasosDePrueba.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +55,107 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ejemplosSelenium" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG.CasosDePrueba.CP005IniciarSesionConFacebook">
+    <configuration name="CasosDePrueba.CP001_Buscar_Genero" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium_intro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.CasosDePrueba" />
+      <option name="METHOD_NAME" value="CP001_Buscar_Genero" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CasosDePrueba.CP002BuscarGenero" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium_intro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.CasosDePrueba" />
+      <option name="METHOD_NAME" value="CP002BuscarGenero" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CasosDePrueba.CP003IniciarSesionConCelular" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium_intro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.CasosDePrueba" />
+      <option name="METHOD_NAME" value="CP003IniciarSesionConCelular" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CasosDePrueba.CP004IniciarSesionConGoogle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium_intro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.CasosDePrueba" />
+      <option name="METHOD_NAME" value="CP004IniciarSesionConGoogle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CasosDePrueba.CP005IniciarSesionConFacebook" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium_intro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.CasosDePrueba" />
+      <option name="METHOD_NAME" value="CP005IniciarSesionConFacebook" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.CasosDePrueba.CP005IniciarSesionConFacebook" />
+        <item itemvalue="TestNG.CasosDePrueba.CP003IniciarSesionConCelular" />
+        <item itemvalue="TestNG.CasosDePrueba.CP004IniciarSesionConGoogle" />
+        <item itemvalue="TestNG.CasosDePrueba.CP002BuscarGenero" />
+        <item itemvalue="TestNG.CasosDePrueba.CP001_Buscar_Genero" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
